@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #efefef;
+}
+
+h1{
+    font-size: 66px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.title{
+    margin: auto;
+    /*font-family: 'Playfair Display', serif;*/
+}
+
+button{
+    height:35px;
+    width:150px;
+    -moz-border-radius: 1px;
+    border-radius: 2px;
+}
+
+button:hover{
+    color: #666600;
+    height:35px;
+    width:150px;
+}
