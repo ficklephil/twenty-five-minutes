@@ -2,18 +2,50 @@
 <html>
 <head>
     <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Signika+Negative:600' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+
+
     <link href='css/style.css' rel='stylesheet' type='text/css'>
+
     <script src="src/newscript.js"></script>
     <script src="lib/jquery-1.10.2.min.js"></script>
+
 </head>
 <body>
-    <h1 class='title'>Pomodoro timer</h1>
-    <p>Description text</p>
-    <!--<input class='task'>-->
-    <h2 class='timer-display'>25:00</h2>
-    <button onclick="setTimeButtonClick(1500000)">Let's go..Pomodoro</button>
-    <button onclick="setTimeButtonClick(2000)">5 Minute Break</button>
-    <button onclick="setTimeButtonClick(900000)">15 Minute Break</button>
+    <!-- Header -->
+    <div class='header'>
+        <div class='title-container'>
+            <h1 class='title'>Super timer online</h1>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class='content'>
+        <div class='timer-container'>
+            <div class='timer'>
+                <h2 class='timer-display'>25:00</h2>
+                <div class='timer-button-container'>
+                    <button class='timer-button left'>PAUSE</button>
+                    <button class='timer-button'>RESET</button>
+                </div>
+            </div>
+            <div class='button-container'>
+                <button class='set-time-button-highlighted' onclick="setTimeButtonClick(1500000)">Twenty five minutes!</button>
+                <button class='set-time-button' onclick="setTimeButtonClick(2000)">5 MINUTE BREAK</button>
+                <button class='set-time-button' onclick="setTimeButtonClick(900000)">15 MINUTE BREAK</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='footer'>
+    </div>
 
     <!--<h2>Tasks done so far on</h2>-->
     <!--<h3>Monday the 4th November</h3>-->
@@ -23,7 +55,7 @@
     <!--<p>Look at aweseomeasds | 1pm - 1.30pm</p>-->
     <!--<p>Break | 1.25pm - 1.30pm</p>-->
     <p></p>
-    <p>References: <a href="http://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique on Wikipedia</a></p>
+    <!--<p>References: <a href="http://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique on Wikipedia</a></p>-->
 
 </body>
 </html>
